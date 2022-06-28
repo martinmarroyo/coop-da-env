@@ -2,7 +2,7 @@ version: '3'
 services:
 # Python Development Environment
     python-env:
-        image: marroyo777/coop-da-python:0.1
+        image: marroyo777/coop-da-python:0.2
         container_name: coop-da-python
         working_dir: /src/python-env
         volumes:
